@@ -1,0 +1,13 @@
+body{
+  background-color: skyblue;
+}
+h1{
+    width: 200px;
+    background-color: white;
+    padding: 10px;
+    color: skyblue;
+}
+a {
+  color: black;
+  font-style: normal;
+}
