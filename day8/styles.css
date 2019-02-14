@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+}
+/* Position options: static (default)
+absolute (position something n relation to window or its position parent element)
+relative (positions relative to where it falls on page)
+fixed (positions it and fixes it to point, not affected by scroll)*/
+div {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+}
+
+.relative {
+  background-color: red;
+  position: relative;
+  top: 200px;
+  left: 200px;
+}
+
+.relative2 {
+  width: 400px;
+  height: 400px;
+  background-color: blue;
+  position: relative;
+  top: 400px;
+  left: 400px;
+}
+
+.absolute {
+  background-color: aquamarine;
+  position: absolute;
+  bottom: 400px;
+  left: 400px;
+}
+
+.absolute2 {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.fixed {
+  background-color: firebrick;
+  position: fixed;
+  top: 200px;
+  left: 600px;
+}
+
+/* heart stuff */
+
+/* Has relative positioning to move the div container */
+.container {
+  position: relative;
+  top: -200px;
+  left: 500px;
+}
+
+.left-circle, .right-circle, .heart {
+  background-color: #ff0066;
+  position: absolute;
+}
+
+.left-circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  top: 251px;
+  left: 230px;
+}
+
+.right-circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  top: 251px;
+  left: 370px;
+}
+
+.heart {
+  width: 200px;
+  height: 200px;
+  transform: rotate(45deg);
+  top: 321px;
+  left: 300px;
+}

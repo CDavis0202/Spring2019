@@ -1,0 +1,38 @@
+body {
+  background-color: #f0ead6;
+}
+
+.chocobox {
+  background-color: #c72026;
+  margin: 0 auto;
+  margin-top: 200px;
+  width: 1000px;
+  padding: 50px;
+}
+
+.foil {
+  background-color: #e5d598;
+  padding: 100px;
+  border-style: solid;
+  border-width: 25px;
+  border-color: #f8f6ed;
+}
+
+.chocoround {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%
+}
+
+.chocosquare {
+  border-radius: 10%
+}
+
+.vertstripe {
+  background-color: white;
+  
+}
+
+.horistripe {
+
+}
