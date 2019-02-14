@@ -1,36 +1,86 @@
 body {
   background-color: #f0ead6;
+  box-sizing: border-box;
 }
 
 .chocobox {
   background-color: #c72026;
   margin: 0 auto;
-  margin-top: 200px;
+  margin-top: 100px;
   width: 1000px;
+  height: 800px;
   padding: 50px;
 }
 
 .foil {
   background-color: #e5d598;
-  padding: 100px;
+  padding: 30px;
   border-style: solid;
   border-width: 25px;
+  height: 700px;
   border-color: #f8f6ed;
 }
 
+/* chocolate stuff */
+.dark {
+  background-color: #441e15;
+}
+.milk {
+  background-color: #7e584a;
+}
+.cream {
+  background-color: white;
+}
+.caramel {
+  background-color: #a55b3d;
+}
+
+
+.round {
+  position: relative;
+}
 .chocoround {
+  position: absolute;
+  top: 15px;
+  left: 15px;
   width: 200px;
   height: 200px;
-  border-radius: 100%
+  border-radius: 100%;
+  /*margin: 15px;*/
+}
+
+.chocoroundborder {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  border-style: solid;
+  border-width: 15px;
+  border-color: white; /* #e5d598 */
+
 }
 
 .chocosquare {
-  border-radius: 10%
+  position: absolute;
+  top:0;
+  left: 0;
+  border-radius: 10%;
+  height: 100px;
+  width: 200px;
+  /*margin: 15px;*/
 }
 
 .vertstripe {
+  position: absolute;
+  top:15px;
+  left: 0;
   background-color: white;
-  
+  height: 200px;
+  width: 10px;
+  /*float: left;*/
+  /*margin-left: 15px;*/
 }
 
 .horistripe {
