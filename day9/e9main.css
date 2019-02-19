@@ -1,0 +1,37 @@
+body {
+  margin: 300px 0 0 0;
+  background-color: white;
+}
+
+a.trans {
+  font-family: serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: black;
+  text-decoration: none;
+  border: 2px solid black;
+  transition: color 1s ease;
+}
+
+a.trans:hover {
+  color: blue;
+}
+
+a.none {
+  font-family: serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: black;
+  text-decoration: none;
+  border: 2px solid black;
+}
+
+a.none:hover {
+  color: blue;
+}
+
+h1 {
+  text-align: center;
+}
