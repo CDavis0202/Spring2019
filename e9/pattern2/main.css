@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+div {
+  float: left;
+}
+
+.topboard {
+  width: 630px;
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.vertrec {
+  width: 100px;
+  height: 405px;
+  background-color: green;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.horirec {
+  width: 405px;
+  height: 200px;
+  background-color: green;
+  margin-left: 5px;
+  margin-top: 5px;
+}
