@@ -1,0 +1,41 @@
+﻿body
+{
+}
+
+div {
+}
+
+.headtop {
+    background-color: black;
+    width: 620px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.headbot {
+    background-color: black;
+    width: 620px;
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+.middle {
+}
+
+.column {
+    background-color: black;
+    width: 200px;
+    height: 700px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.footer {
+    background-color: black;
+    width: 620px;
+    height: 100px;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 865px;
+}
