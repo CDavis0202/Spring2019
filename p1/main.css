@@ -37,10 +37,14 @@ h3 {
     font-size: 16pt;
 }
 
-a, a:visited{
+a, a:visited {
+    font-family: 'Cinzel', serif;
+    font-weight: 900;
     color: firebrick;
 }
 
-a:active, a:hover{
-    color: crimson;
-}
+    a:active, a:hover {
+        font-family: 'Cinzel', serif;
+        font-weight: 900;
+        color: crimson;
+    }
