@@ -1,0 +1,60 @@
+body {
+
+}
+
+.main {
+  margin: 0 auto;
+  width: 800px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.title1, .title2, .title3 {
+  font-family: Mukta, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.sub2, .sub1 {
+  font-family: Oswald, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+.sub2 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.title1 {
+  font-size: 72px;
+}
+
+.title2 {
+  font-family: Oswald, sans-serif;
+  font-size: 40px;
+  text-transform: none;
+}
+
+.title3 {
+  font-size: 56px;
+}
+
+.body {
+  margin: 0 auto;
+  width: 600px;
+  font-family: Mukta, sans-serif;
+}
+
+.side1 {
+  font-family: Oswald, sans-serif;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+.side2 {
+  font-family: Oswald, sans-serif;
+  text-transform: uppercase;
+  font-size: 16px;
+}
