@@ -1,0 +1,68 @@
+body {
+
+}
+
+.main {
+
+}
+
+.titleblock{
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 750px;
+}
+
+.titlewords{
+    float: left;
+    text-align: right;
+}
+
+.titlepic{
+    float: right;
+    border: 3px solid black;
+}
+
+h1, h2 {
+  margin: 0;
+  padding: 0px;
+  font-family: 'IM Fell Great Primer SC', serif;
+  font-size: 36px;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+.sub1, .sub2 {
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+.sub2 {
+  font-size: 48px;
+  font-family: 'IM Fell Great Primer SC', serif;
+  margin-top: 10px;
+}
+
+.bodbod {
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 500px;
+  font-family: 'Josefin Sans', sans-serif;
+  padding-top: 290px;
+}
+
+.side1 {
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.side2 {
+  font-family: 'IM Fell Great Primer SC', serif;
+  text-transform: uppercase;
+  font-size: 16px;
+}
