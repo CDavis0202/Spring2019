@@ -4,30 +4,36 @@ body {
 
 .main {
   margin: 0 auto;
-  width: 1000px;
+  width: 700px;
   margin-bottom: 50px;
+}
+
+.topblock {
+  float: left;
+  height: 0px;
+  width: 200px;
 }
 
 .titleblock{
     transform: rotate(-90deg);
-    float: left;
-    margin-top: 200px;
+    width: 800px;
+    height: 825px;
 }
 
 h1, h2 {
   margin: 0;
   padding: 0px;
   font-weight: lighter;
-  font-family: 'PT Serif', serif
+  font-family: serif;
 }
 
 h1 {
-  font-size: 36px;
+  font-size: 48px;
   text-transform: uppercase;
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 48px;
 }
 
 .sub1, .sub2 {
@@ -52,6 +58,7 @@ h2 {
   font-family: sans-serif;
   text-transform: uppercase;
   font-size: 18px;
+  margin-top: 25px;
 }
 
 .side2 {
