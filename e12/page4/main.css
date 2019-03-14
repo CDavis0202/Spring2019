@@ -1,14 +1,21 @@
 body {
-
+    background-color: #ddd6be;
 }
 
 .main {
 
 }
 
-.titleblock{
+.titlebanner {
+    background-color: #686353;
+    height: 265px;
+    margin-top: 38px;
+    padding: 15px;
+}
+
+.titleblock {
+    color: #ddd6be;
     margin: 0 auto;
-    margin-top: 50px;
     width: 750px;
 }
 
@@ -17,9 +24,10 @@ body {
     text-align: right;
 }
 
-.titlepic{
+.titlepic {
     float: right;
-    border: 3px solid black;
+    border: 7px double #ddd6be;
+    margin-top: 15px;
 }
 
 h1, h2 {
@@ -31,6 +39,7 @@ h1, h2 {
 
 h1 {
   text-transform: uppercase;
+  height: 35px;
 }
 
 .sub1, .sub2 {
@@ -38,6 +47,7 @@ h1 {
   font-family: 'Josefin Sans', sans-serif;
   text-transform: uppercase;
   font-size: 24px;
+  color: #686353;
 }
 
 .sub2 {
@@ -52,17 +62,18 @@ h1 {
   margin-bottom: 50px;
   width: 500px;
   font-family: 'Josefin Sans', sans-serif;
-  padding-top: 290px;
 }
 
 .side1 {
   font-family: 'Josefin Sans', sans-serif;
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 26px;
+  margin-top: 15px;
 }
 
 .side2 {
   font-family: 'IM Fell Great Primer SC', serif;
   text-transform: uppercase;
   font-size: 16px;
+  font-weight: 700;
 }

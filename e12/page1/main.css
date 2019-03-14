@@ -9,10 +9,29 @@ body {
   margin-bottom: 50px;
 }
 
-.title1, .title2, .title3 {
+h1, h2, h3 {
   font-family: Mukta, sans-serif;
   text-align: center;
   text-transform: uppercase;
+  margin: 0px;
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 80px;
+  height: 100px;
+}
+
+h2 {
+  font-family: Oswald, sans-serif;
+  font-size: 40px;
+  text-transform: none;
+  height: 45px;
+}
+
+h3 {
+  font-size: 56px;
+  height: 75px;
 }
 
 .sub2, .sub1 {
@@ -27,19 +46,7 @@ body {
   font-size: 36px;
 }
 
-.title1 {
-  font-size: 72px;
-}
 
-.title2 {
-  font-family: Oswald, sans-serif;
-  font-size: 40px;
-  text-transform: none;
-}
-
-.title3 {
-  font-size: 56px;
-}
 
 .body {
   margin: 0 auto;
