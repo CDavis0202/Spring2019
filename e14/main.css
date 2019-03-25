@@ -3,8 +3,8 @@
 }
 
 body {
-  margin: 0;
-  background-color: tomato;
+    margin: 0;
+    background-color: #c0e8c4;
 }
 
 main {
@@ -12,9 +12,10 @@ main {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Alegreya', sans-serif;
-  background-color: white;
-  padding: 10px;
+    font-family: 'Alegreya', sans-serif;
+    background-color: #d7efda;
+    color: #1d3520;
+    padding: 10px;
 }
 
 h1 {
@@ -34,7 +35,7 @@ h4 {
   font-size: 1.3em
 }
 
-p {
+p, ul {
   font-family: 'Montserrat', sans-serif;
   line-height: 1.4em;
   font-size: 1.4em;
@@ -46,24 +47,44 @@ p {
   body {
     background-color: lightblue;
   }
-  p {
+  p, ul {
     width: 80vw;
+    font-family: 'Oswald', sans-serif;
   }
   h1 {
     font-size: 6em;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Amatic SC', sans-serif;
+    background-color: #53737c;
+    color: white;
   }
 }
 
 @media only screen and (min-width: 1200px) {
   h1, h2, h3 {
     font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    color: black;
+    text-shadow:
+    -5px -5px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;  
+    margin-left: 50px;
   }
-  p {
+  .textbox {
+    background-color: white;
+    padding: 10px;
+    width: 70%;
+    margin: 0px auto;
+  }
+  p, ul {
     font-family: 'Oswald', sans-serif;
     width: 60vw;
   }
   body {
-    background-color: dodgerblue;
+    background-color: black;
   }
 }
 
@@ -73,21 +94,44 @@ p {
   }
   h1, h2, h3 {
     font-family: 'Rock Salt', cursive;
+    text-shadow: none;
+    background-color: whitesmoke;
+    border-bottom: double black 10px;
   }
   h1 {
     font-size: 5em;
   }
-  p {
+  .textbox {
+      background-color: whitesmoke;
+  }
+  p, ul {
     width: 50vw;
+    background-color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
   }
 }
 
 @media only screen and (min-width: 2000px) {
   body {
-    background-color: rebeccapurple;
+    background-color: #4b4659;
     color: white;
   }
-  p {
+  h1, h2, h3 {
+    font-family: 'Permanent Marker', cursive;
+    color: whitesmoke;
+    text-shadow: none;
+    background-color: #b6adce;
+    border: 10px double #4b4659;
+    margin-left: 0px;
+    padding-left: 300px;
+  }
+  p, ul {
     width: 40vw;
+    color: whitesmoke;
+    background-color: #4b4659;
+  }
+  .textbox {
+      background-color: #4b4659;
+      border: 10px double #b6adce;
   }
 }
