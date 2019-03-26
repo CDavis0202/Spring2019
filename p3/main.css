@@ -1,0 +1,101 @@
+﻿body {
+    margin: 0 auto;
+    background-color: #5d4c39;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-size: 18px;
+}
+
+.topbanner, .bottombanner {
+    max-width: 100%;
+    height: auto;
+    opacity: 0.7;
+    border-bottom: double 10px black;
+}
+
+.bottombanner {
+    margin-top: 20px;
+    border-top: double 10px black;
+    border-bottom: none;
+    margin-bottom: 0px;
+}
+
+.shiggy {
+    z-index: 10;
+    height: 20px;
+    -webkit-transition: height 2s, background-color 2s, opacity 2s;
+    transition: height 2s, background-color 2s, opacity 2s;
+    opacity: 0;
+}
+
+.shiggy:hover{
+    background-color: #d3c09e;
+    height: auto;
+    opacity: 1;
+}
+
+.hoverhere {
+    z-index: 0;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1em;
+    color: #b7af9d;
+}
+
+h1 {
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    text-transform: uppercase;
+    font-size: 5em;
+    font-family: 'Sorts Mill Goudy', serif;
+}
+
+.introtext {
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 600px;
+}
+
+.section {
+    border-bottom: groove 10px #45331f;
+    margin: 0 auto;
+    max-width: 90vw;
+    min-height: 800px;
+}
+
+.section img {
+    padding-right: 30px;
+    float: left;
+    max-width: 400px;
+}
+
+.section .section{
+    max-width: 60vw;
+    border: none;
+}
+
+.fourth{
+    min-height: 900px;
+}
+
+.fifth{
+    min-height: 900px;
+}
+
+
+.titlething {
+    padding-right: 40px;
+    margin-bottom: 20px;
+    background-color: #a5845e;
+    font-family: 'Sorts Mill Goudy', serif;
+    text-transform: uppercase;
+    font-size: 48px;
+    text-align: right;
+}
