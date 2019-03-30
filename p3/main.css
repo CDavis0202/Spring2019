@@ -51,18 +51,19 @@ p {
     color: #b7af9d;
 } */
 
-h1 {
+/*h1 {
     margin: 0 auto;
+    margin-top: 20px;
     text-transform: uppercase;
     text-align: center;
     font-size: 5em;
     font-family: 'Sorts Mill Goudy', serif;
-}
+} */
 
 .introtext {
     margin: 0 auto;
-    padding-top: 30px;
     padding-bottom: 30px;
+    padding-top: 50px;
     width: 600px;
 }
 
@@ -70,13 +71,13 @@ h1 {
     border-bottom: groove 10px #45331f;
     margin: 0 auto;
     max-width: 90vw;
-    min-height: 800px;
+    padding-bottom: 25px;
 }
 
 .section img {
-    padding-right: 30px;
+    padding: 10px;
     float: left;
-    max-width: 100%;
+    max-width: 96%;
 }
 
 .section .section{
@@ -84,53 +85,140 @@ h1 {
     border: none;
 }
 
-.fourth{
+/*.fourth{
     min-height: 900px;
 }
 
 .fifth{
     min-height: 900px;
-}
+} */
 
-
-.titlething {
-    padding-right: 40px;
+.sectionheader {
+    padding: 10px;
     margin-bottom: 20px;
     background-color: #a5845e;
     font-family: 'Sorts Mill Goudy', serif;
     text-transform: uppercase;
     font-size: 48px;
-    text-align: right;
+    text-align: center;
+}
+
+.headtitle {
+    padding-top: 10%;
+    position: absolute;
+    text-align: center;
+    width: 100vw;
+    text-transform: uppercase;
+    font-size: 8em;
+    font-family: 'Sorts Mill Goudy', serif;
+    z-index: 10;
+}
+
+.characters img {
+    max-width: 45%;
+    padding-right: 10px;
+    padding-left: 0px;
+   margin-bottom: 20px;
+   float: none;
+}
+
+.beasts img {
+    max-width: 50%;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 5px;
+}
+
+.map img {
+    float: none;
+}
+
+.map p {
+    max-width: 800px;
+}
+
+.horse img {
+    float: none;
+}
+
+.horse p {
+    max-width: 800px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .introtext {
+    max-width: 400px;
+    padding-top: 40px;
+  }
+  .section img {
+      padding: 10px;
+  }
+  .headtitle {
+        font-size: 72px;
+    }
+  .characters img {
+      float: left;
+  }
+
 }
 
 @media only screen and (max-width: 768px) {
   .introtext {
-      max-width: 400px;
+    max-width: 400px;
+    padding-top: 20px;
   }
-  h1 {
-      font-size: 4em;
+  .headtitle {
+      font-size: 48px;
   }
   p {
     font-size: 16px;
+    padding: 0px;
   }
   .titlething {
     font-size: 36px;
+  }
+  .section img {
+    float: none;
+    margin: 0 auto;
+    padding: 5px;
+  }
+
+  .characters img {
+    max-width: 95%;
+  }
+
+  .beasts img {
+      max-width: 95%;
   }
 }
 
 @media only screen and (max-width: 320px) {
   .introtext {
-      max-width: 200px;
-
+    padding-top: 20px;
+    max-width: 200px;
   }
-  h1 {
-      font-size: 2em;
+  /*h1 {
+      font-size: 36px;
+  }*/
+  .headtitle {
+    font-size: 2em;
   }
   p {
-    font-size: 10px;
+    font-size: 12px;
   }
-
   .section img {
-    max-width: 200px;
+    float: none;
+    margin: 0 auto;
+    padding: 5px;
+  }
+  .sectionheader {
+      font-size: 24px;
+  }
+  .section { 
+    padding-bottom: 10px;
+    max-width: 95vw;
+  }
+  .characters img {
+    max-width: 95%;
   }
 }
