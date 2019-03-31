@@ -85,14 +85,6 @@ p {
     border: none;
 }
 
-/*.fourth{
-    min-height: 900px;
-}
-
-.fifth{
-    min-height: 900px;
-} */
-
 .sectionheader {
     padding: 10px;
     margin-bottom: 20px;
@@ -109,9 +101,14 @@ p {
     text-align: center;
     width: 100vw;
     text-transform: uppercase;
-    font-size: 8em;
+    font-size: 6em;
     font-family: 'Sorts Mill Goudy', serif;
     z-index: 10;
+    text-shadow: 
+        -5px -5px 0 #d3c09e, 
+        1px -1px 0 #d3c09e, 
+        -1px 1px 0 #d3c09e, 
+        1px 1px 0 #d3c09e;
 }
 
 .characters img {
@@ -164,7 +161,7 @@ p {
 
 @media only screen and (max-width: 768px) {
   .introtext {
-    max-width: 400px;
+    max-width: 350px;
     padding-top: 20px;
   }
   .headtitle {
@@ -189,6 +186,10 @@ p {
 
   .beasts img {
       max-width: 95%;
+  }
+
+  .sectionheader {
+      font-size: 36px;
   }
 }
 
