@@ -3,7 +3,6 @@
     background-color: #5d4c39;
     font-family: 'Montserrat', sans-serif;
 }
-
 p {
     font-size: 18px;
 }
@@ -104,10 +103,10 @@ p {
     font-size: 6em;
     font-family: 'Sorts Mill Goudy', serif;
     z-index: 10;
-    text-shadow: 
-        -5px -5px 0 #d3c09e, 
-        1px -1px 0 #d3c09e, 
-        -1px 1px 0 #d3c09e, 
+    text-shadow:
+        -5px -5px 0 #d3c09e,
+        1px -1px 0 #d3c09e,
+        -1px 1px 0 #d3c09e,
         1px 1px 0 #d3c09e;
 }
 
@@ -140,6 +139,22 @@ p {
 
 .horse p {
     max-width: 800px;
+}
+
+@media only screen and (min-width: 2000px)
+{
+  .beasts {
+    width: 100%;
+  }
+
+  .beasts img {
+    max-width: 100%;
+  }
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -215,7 +230,7 @@ p {
   .sectionheader {
       font-size: 24px;
   }
-  .section { 
+  .section {
     padding-bottom: 10px;
     max-width: 95vw;
   }

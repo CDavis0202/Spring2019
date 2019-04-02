@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.full {
+  width: 100vw;
+  height: 100vh;
+}
+
+#list-name {
+  background-color: whitesmoke;
+}
+
+#number5 {
+
+}
+
+#game-5 {
+  transition: all .5s ease;
+}
+
+#number4 {
+
+}
+
+#game-4 {
+  transition: all .5s ease;
+}
+
+#number3 {
+
+}
+
+#game-3 {
+  transition: all .5s ease;
+}
+
+#number2 {
+
+}
+
+#game-2 {
+  transition: all .5s ease;
+}
+
+#number1 {
+
+}
+
+#game-1 {
+  transition: all .5s ease;
+}
+
+.green {
+  background-color: #48c348;
+  color: #735824;
+}
+
+
+.gold {
+  background-color: gold;
+  color: royalblue;
+}
+
+.lightblue {
+  background-color: dodgerblue;
+  color: orange;
+}
+
+.brown {
+  background-color: #795548;
+  color: #74d03c;
+}
+
+.darkblue {
+  background-color: darkblue;
+  color: lightblue;
+}
+
+h1 {
+  font-size: 5em;
+  margin: 0;
+  padding: 40vh 0 0 0;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-weight: bold;
+  transition: all .5s ease;
+}
+
+span {
+  margin: 0;
+  transition: all .5s ease;
+  cursor: pointer;
+}
