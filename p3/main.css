@@ -159,7 +159,7 @@ p {
 
 @media only screen and (max-width: 1024px) {
   .introtext {
-    max-width: 400px;
+    max-width: 60%;
     padding-top: 40px;
   }
   .section img {
@@ -176,7 +176,7 @@ p {
 
 @media only screen and (max-width: 768px) {
   .introtext {
-    max-width: 350px;
+    max-width: 70%;
     padding-top: 20px;
   }
   .headtitle {
@@ -211,7 +211,7 @@ p {
 @media only screen and (max-width: 320px) {
   .introtext {
     padding-top: 20px;
-    max-width: 200px;
+    max-width: 80%;
   }
   /*h1 {
       font-size: 36px;
@@ -228,7 +228,7 @@ p {
     padding: 5px;
   }
   .sectionheader {
-      font-size: 24px;
+      font-size: 20px;
   }
   .section {
     padding-bottom: 10px;
