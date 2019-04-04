@@ -1,5 +1,13 @@
 $(document).ready(function() {
   //$('h1').css('color', 'white');
+  $('#listheader').mouseenter(function() {
+    $('h2').css('opacity', '1');
+  });
+  $('#listheader').mouseleave(function() {
+    $('h2').css('opacity', '0');
+  });
+
+
   $('#number5').click(function() {
     $('#game-5').toggleClass('green');
   });
@@ -37,15 +45,25 @@ $(document).ready(function() {
     $('#game-2').toggleClass('brown');
   });
   $('#number2').mouseenter(function() {
-    $('#number2').css('text-decoration', 'overline');
+    $('#number2').css('border', '5px solid');
+    $('#number2').css('border-style', 'solid none');
   });
   $('#number2').mouseleave(function() {
-    $('#number2').css('text-decoration', 'none');
+    $('#number2').css('border', '0px solid');
   });
 
 
   $('#game-1').click(function() {
     $('#game-1').toggleClass('darkblue');
+  });
+  $('#number1').mouseenter(function() {
+    $('#number1').css('font-weight', 'lighter');
+    $('#number1').css('border', '5px solid');
+    $('#number1').css('border-style', 'none solid');
+  });
+  $('#number1').mouseleave(function() {
+    $('#number1').css('font-weight', 'bold');
+    $('#number1').css('border', '0px solid');
   });
 
 });
