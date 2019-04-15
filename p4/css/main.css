@@ -1,0 +1,70 @@
+﻿body {
+    background-color: #b3b3b3;
+    margin: 0 auto;
+}
+
+.mainbody {
+    margin: 0 auto;
+    background-color: #e6e6e6;
+    border-left: 30px double #b3b3b3;
+    border-right: 30px double #b3b3b3;
+    width: 70%;
+    min-height: 100vh;
+}
+
+h1, h2 {
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Indie Flower', cursive;
+    text-transform: uppercase;
+    width: 60%;
+    color: #4d4d4d;
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h1 {
+    border-bottom: 10px double #bdccd4;
+    padding-bottom: 10px;
+}
+
+.maintitle {
+    padding-top: 20%;
+}
+
+/* */
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.buttons{
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.indexbutton {
+    background-color: #bdccd4;
+    color: #f2f2f2;
+    border: 5px double #f2f2f2;
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-size: 36px;
+    text-transform: lowercase;
+    text-align: center;
+    padding: 10px;
+}
+
+.about {
+    float: left;
+    margin: 0 auto;
+}
+
+.col {
+    float: right;
+    margin: 0 auto;
+}

@@ -1,0 +1,51 @@
+﻿body {
+    margin: 0 auto;
+    background-color: antiquewhite;
+    transition: all .5s ease;
+}
+
+.image1 {
+    opacity: 1;
+    position: absolute;
+    top: 17vh;
+    left: 40vw;
+}
+
+.image2 {
+    opacity: 0;
+    position: absolute;
+    top: 13vh;
+    left: 4vw;
+}
+
+.image3 {
+    opacity: 0;
+    position: absolute;
+    top: 8vh;
+    left: 75vw;
+}
+
+.image4 {
+    opacity: 0;
+    position: absolute;
+    top: 70vh;
+    left: 10vw;
+}
+
+.image5 {
+    opacity: 0;
+    position: absolute;
+    top: 70vh;
+    left: 70vw;
+}
+
+.image6 {
+    opacity: 0;
+    position: absolute;
+    top: 50vh;
+    left: 40vw;
+}
+
+.test {
+    background-color: red;
+}
