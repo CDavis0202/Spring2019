@@ -1,51 +1,59 @@
 ﻿body {
     margin: 0 auto;
-    background-color: antiquewhite;
+    background-color: cornsilk;
     transition: all .5s ease;
 }
 
+.decoration {
+  background-color: ivory;
+  box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  border: 20px double pink;
+  margin: 0 auto;
+  margin-top: 5vh;
+  max-width: 93vw;
+  min-height: 90vh;
+}
+
 .image1 {
-    opacity: 1;
+    display: block;
     position: absolute;
-    top: 17vh;
-    left: 40vw;
+    top: 45vh;
+    left: 45vw;
 }
 
 .image2 {
-    opacity: 0;
+    display: none;
     position: absolute;
-    top: 13vh;
-    left: 4vw;
+    top: none;
+    left: none;
 }
 
 .image3 {
-    opacity: 0;
+    display: none;
     position: absolute;
-    top: 8vh;
-    left: 75vw;
+    top: none;
+    left: none;
 }
 
 .image4 {
-    opacity: 0;
+    display: none;
     position: absolute;
-    top: 70vh;
-    left: 10vw;
+    top: none;
+    left: none;
 }
 
 .image5 {
-    opacity: 0;
+    display: none;
     position: absolute;
-    top: 70vh;
-    left: 70vw;
+    top: none;
+    left: none;
 }
 
 .image6 {
-    opacity: 0;
+    display: none;
     position: absolute;
-    top: 50vh;
-    left: 40vw;
-}
-
-.test {
-    background-color: red;
+    top: 45vh;
+    left: 45vw;
 }

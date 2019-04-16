@@ -21,9 +21,10 @@ function breedGuess() {
     //$('imgbox').css('background-image', 'images/' + breedArray[randomNumber] + '.jpg');
 
 	breedpic = "images/" + stripped + ".jpg";
+  console.log(breedpic);
 
-	$("imgbox").attr('src', 'breedpic');
-	
+	$(".imgbox").attr('src', breedpic);
+
 	$('#submit').click(function() {
 		var input = $('input').val();
 		var guess = input.toLowerCase();
