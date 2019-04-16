@@ -1,7 +1,8 @@
 body {
 	margin: 0;
 	color: black;
-    background-color: aliceblue;
+  background-color: skyblue;
+	color: steelblue;
 }
 #container {
 	width: 50vw;
@@ -11,19 +12,20 @@ body {
 
 h1, p {
 	margin: 0;
+	font-family: 'Amatic SC', cursive;
 }
+
 h1 {
 	font-size: 48px;
 	text-align: center;
-	font-family: sans-serif;
 	letter-spacing: 2px;
 }
 
 h2 {
     font-size: 24px;
     text-align: center;
-    font-family: sans-serif;
     letter-spacing: 2px;
+		font-family: 'Open Sans Condensed', sans-serif;
 }
 
 input {
@@ -34,9 +36,22 @@ input {
 	padding: 25px 0;
 	text-align: center;
 }
+
+.decoration {
+	background-color: aliceblue;
+  box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  border: 20px double skyblue;
+  margin: 0 auto;
+  margin-top: 5vh;
+  max-width: 93vw;
+  min-height: 90vh;
+}
+
 .button {
 	width: 150px;
-	background-color: black;
+	background-color: skyblue;
 	color: white;
 	border-radius: 5px;
 	padding: 10px 15px;
@@ -47,14 +62,20 @@ input {
 }
 .button p {
 	text-align: center;
-	font-family: sans-serif;
-	text-transform: uppercase;
+	font-size: 30px;
 	letter-spacing: 2px;
 	font-weight: bold;
 }
 
 .imgbox {
+		border: 12px solid skyblue;
     margin: 0 auto;
     margin-left: 30%;
+		margin-bottom: 20px;
     max-width: 400px;
+}
+
+.guesses {
+	font-size: 30px;
+	font-family: 'Amatic SC', cursive;
 }
